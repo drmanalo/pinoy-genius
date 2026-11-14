@@ -2,11 +2,11 @@
 import random
 
 WORDS = {
-    "Tao": ["tounge", "doktor", "alak-alakan", "hintuturo", "sakong", "Jose Rizal", "Tandang Sora", "pulis"],
-    "Pagkain": ["adobo", "halo-halo", "mangga", "sinigang", "pandesal", "lechon", "turon", "balut"],
+    "Tao": ["tongue", "doktor", "alak-alakan", "hintuturo", "sakong", "Jose Rizal", "Tandang Sora", "Brad Pitt"],
+    "Bagay": ["payong", "tsinelas", "jeepney", "cellphone", "walis", "unan", "relo", "bola"],
     "Hayop": ["aso", "pusa", "kalabaw", "buwaya", "tarsier", "ahas", "palaka", "manok"],
     "Lugar": ["Luneta", "palengke", "simbahan", "paaralan", "Boracay", "ospital", "dagat", "bundok"],
-    "Bagay": ["payong", "tsinelas", "jeepney", "cellphone", "walis", "unan", "relo", "bola"],
+    "Pagkain": ["adobo", "halo-halo", "mangga", "sinigang", "pandesal", "lechon", "turon", "balut"],
     "Halaman": ["saging", "niyog", "sampaguita", "kawayan", "bayabas", "santol"],
 }
 
