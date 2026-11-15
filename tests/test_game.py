@@ -61,7 +61,7 @@ def test_correct_guess_advances_and_all_five_wins():
 def test_time_runs_out():
     game, clock = make_game()
     game.ask(BOARD[0])
-    clock.now = 181
+    clock.now = 310
     game.tick()
     assert game.state == FINISHED and not game.won
     assert game.guessed == 1

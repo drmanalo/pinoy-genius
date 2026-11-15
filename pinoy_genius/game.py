@@ -32,7 +32,7 @@ class Message:
 
 
 class Game:
-    def __init__(self, board, duration=180, clock=time.monotonic):
+    def __init__(self, board, duration=300, clock=time.monotonic):
         self.board = board
         self.duration = duration
         self.clock = clock

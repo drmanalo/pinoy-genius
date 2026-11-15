@@ -71,7 +71,7 @@ def waiting_view(room, player):
     if not room.ready:
         ui.label("Naghihintay ng partner...")
         return lambda: None
-    ui.label(f"Ikaw ang {player.role}. 5 salita, 3 minuto!").classes("text-lg")
+    ui.label(f"Ikaw ang {player.role}. 5 salita, 5 minuto!").classes("text-lg")
     ui.button("Simulan!", on_click=game.start).props("size=xl color=green")
     return lambda: None
 
@@ -184,7 +184,7 @@ def room_page(code, pid):
 def lobby_page():
     with ui.column().classes("items-center w-full max-w-md mx-auto gap-3 p-4"):
         ui.label("🇵🇭 Pinoy Genius").classes("text-4xl font-bold")
-        ui.label("Hulaan ang 5 salita sa loob ng 3 minuto!")
+        ui.label("Hulaan ang 5 salita sa loob ng 5 minuto!")
         name = ui.input("Pangalan mo").classes("w-full")
         code = ui.input("Room code").classes("w-full")
 

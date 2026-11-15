@@ -25,7 +25,7 @@ A two-player online guessing game inspired by **Pinoy Henyo**. One player (the *
 
 ```
 ❯ python -m venv .venv
-❯ source .vena/bin/activate
+❯ source .venv/bin/activate
 ❯ pip install -r requirements.txt
 ```
 * For `fish shell`: source .venv/bin/activate.fish
