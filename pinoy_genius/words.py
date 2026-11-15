@@ -7,7 +7,6 @@ WORDS = {
     "Hayop": ["aso", "pusa", "kalabaw", "buwaya", "tarsier", "ahas", "palaka", "manok"],
     "Lugar": ["Luneta", "palengke", "simbahan", "paaralan", "Boracay", "ospital", "dagat", "bundok"],
     "Pagkain": ["adobo", "halo-halo", "mangga", "sinigang", "pandesal", "lechon", "turon", "balut"],
-    "Halaman": ["saging", "niyog", "sampaguita", "kawayan", "bayabas", "santol"],
 }
 
 CATEGORIES = list(WORDS)
